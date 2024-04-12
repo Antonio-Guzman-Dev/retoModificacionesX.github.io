@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(84, 170, 241);
+}
+
+main {
+    min-height: 79vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+}
+.encabezado {
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    width: 30rem;
+    height: 30rem;
+    background-color: rgb(13, 255, 0);
+    border-radius: 100%;
+    border: 5px solid black;
+    display: grid;
+    place-items: center;
+}
+.circulo p {
+    font-size: 2.2em;
+}
+
+footer {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(51, 51, 51);
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    background-color: rgb(53, 109, 214);
+    color: white;
+}
+
+
